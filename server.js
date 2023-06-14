@@ -1,7 +1,7 @@
 //Declare required app variables
 const express = require('express');
-const api_route = require('./routes/api-route')
-const html_route = require('./routes/html-route')
+const api_route = require('./routes/route-api')
+const html_route = require('./routes/route-html')
 const app = express();
 const PORT = process.env.PORT || 3001;
 
